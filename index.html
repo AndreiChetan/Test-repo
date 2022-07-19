@@ -14,11 +14,39 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css" />
     <title>Ristorante Con Fusion</title>
   </head>
 
   <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#Navbar"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand mr-auto">Ristorante Con Fusion</a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="container-fluid p-5 jumbotron">
       <div class="container">
         <div class="row row-header">
@@ -69,7 +97,7 @@
         <div class="col-12 col-sm-4 order-sm-last col-md-3">
           <h3>Meet our Culinary Specialists</h3>
         </div>
-        <div  class="col col-sm order-sm-first col-md">
+        <div class="col col-sm order-sm-first col-md">
           <h2>Alberto Somayya</h2>
           <h4>Executive Chef</h4>
           <p>
@@ -89,7 +117,7 @@
             <h5>Links</h5>
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="aboutus.html">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -124,10 +152,9 @@
       </div>
     </footer>
 
-
-     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
